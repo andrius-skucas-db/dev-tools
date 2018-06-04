@@ -1,0 +1,18 @@
+
+.alert {
+    width: 500px;
+    padding: 40px;
+    background: #333;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -250px;
+    color: #fff;
+    transition: transform 5s;
+    transform: translateY(-100%);
+    /* backface-visibility: hidden; */
+}
+
+.alert--open {
+    transform: translateY(0);
+}
