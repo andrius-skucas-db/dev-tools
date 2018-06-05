@@ -2,15 +2,15 @@
 
 ## Performace issues
 * Network
-** Open inognito mode
-** Disable cache
-** Turn on camera
-** Google file
-** Green - waiting from server
-** Blue download time
+    * Open inognito mode
+    * Disable cache
+    * Turn on camera
+    * Google file
+    * Green - waiting from server
+    * Blue download time
 * Performance
-** Modal is not opening for long time
-* Coveredge
+    * Modal is not opening for long time
+* Coverage
 
 ## Rendering issues
 * Alert animation
