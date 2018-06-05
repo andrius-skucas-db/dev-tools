@@ -1,3 +1,30 @@
+body {
+    background: #fcfcfc;
+    font-family: sans-serif;
+}
+
+.btn {
+    -webkit-appearance: none;
+    border-radius: 2px;
+    background: #1b85b8;
+    border: 0;
+    padding: 1em 2em;
+    color: #fcfcfc;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #5a5255;
+}
+
+.text-input {
+    -webkit-appearance: none;
+    border-radius: 2px;
+    background: #ffffff;
+    padding: .9em .5em;
+    border: solid 1px #5a5255;
+}
+
 .alert {
     width: 500px;
     padding: 40px;
@@ -10,7 +37,7 @@
     transition: transform 5s;
     transform: translateY(-100%);
 
-    /* backface-visibility: hidden; */
+     /*backface-visibility: hidden;*/
 }
 
 .alert--open {
