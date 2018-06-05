@@ -5,17 +5,14 @@
 
     const showAlert = () => {
 
-        for(let i = 0; i < 10000; i++) {
-            console.log(i);
-        }
+        doSomeWork();
 
-        const textToDisplay = alertText.value;
-        alertContent.innerHTML = textToDisplay;
+        alertContent.innerHTML = alertText.value;
         alertContent.classList.add('alert--open');
         requestAnimationFrame(() => {
             document.addEventListener('click', stop);
             document.addEventListener('click', hideAlert);
-        });        
+        });
     };
 
     const hideAlert = (e) => {
@@ -30,9 +27,15 @@
     alertBtn.addEventListener('click', showAlert);
 
 
-    
+    const doSomeWork = () => {
+      for(let i = 0; i < 10000; i++) {
+        console.log(i);
+      }
+    };
+
+
 
     const stop = (e) => {
-        // e.stopImmediatePropagation();
+        e.stopImmediatePropagation();
     };
 })();

@@ -1,7 +1,7 @@
 #Chrome dev tools
 
 ## Performace issues
-* Network 
+* Network
 ** Open inognito mode
 ** Disable cache
 ** Turn on camera
@@ -14,21 +14,21 @@
 
 ## Rendering issues
 * Alert animation
-** Rendering tab
-*** Print splashing
-** Animation tab
-*** Make animations faster/slower
-** Layers tab 
-*** Show layers 
-*** Rotate
+    * Rendering tab
+        * Print splashing
+    * Animation tab
+        * Make animations faster/slower
+    * Layers tab
+        * Show layers
+        * Rotate
 
 ## Inspeting
-** Test shadows
-** Add remove classes
-** Add colors
-** Colors aessability
-** Delete elements
-** Add remove classes
+* Test shadows
+* Add remove classes
+* Add colors
+* Colors aessability
+* Delete elements
+* Add remove classes
 
 ## Debugging
 * $0 ... $7
@@ -43,7 +43,7 @@
 * Screenshots
 * Audits
 * Application
-** Manifest file
+    * Manifest file
 * Print preview
 
 ## Extra
